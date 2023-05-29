@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Orelega+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&display=swap");
+
+html,
+body {
+  background: #000;
+  color: #ffffff;
+  height: 100%;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+main {
+  flex: 1 1 auto;
+}
+ul li {
+  list-style: none;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a,
+p {
+  color: #ffffff;
+  font-family: "Alegreya Sans", sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.main {
+  flex: 1 1 auto;
+  
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e50000+0,8f0222+0,000000+100 */
+  background: #78021d;
+  z-index: 99;
+  /* opacity: 0.9; */
+}
+.header-container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1550px;
+  align-items: center;
+  height: 110px;
+  padding: 0px 50px;
+}
+.header-logo {
+  font-size: 55px;
+  font-weight: 600;
+  font-family: "Orelega One", cursive;
+}
+.header-logo:hover {
+  scale: 1.05;
+}
+.header-menu {
+}
+.header-list {
+  display: flex;
+  gap: 50px;
+}
+.header-item {
+}
+.hedaer-link {
+  font-size: 45px;
+  font-weight: 600;
+}
+.hedaer-link:hover {
+  text-decoration: underline;
+}
+.upper-screen {
+  height: 100vh;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e50000+0,8f0222+0,000000+100 */
+  background: rgb(229, 0, 0); /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    rgba(229, 0, 0, 1) 0%,
+    rgba(143, 2, 34, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    rgba(229, 0, 0, 1) 0%,
+    rgba(143, 2, 34, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    rgba(229, 0, 0, 1) 0%,
+    rgba(143, 2, 34, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e50000', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+}
+.upper-screen-wrapper {
+  height: 100vh;
+  background: url("./img/logo2.webp") 0 0 no-repeat;
+  background-size: auto;
+  background-position: center;
+}
+#about-me {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#about-me h2 {
+  font-size: 70px;
+  font-family: "Orelega One", cursive;
+}
+h2 {
+  text-decoration: underline;
+  text-decoration-color: red;
+  text-underline-offset: 30px;
+  text-align: center;
+  font-family: "Orelega One", cursive;
+}
+#about-me p {
+  font-size: 35px;
+  text-align: center;
+}
+.portfolio {
+  font-size: 70px;
+}
+#photo-project {
+  margin-top: 100px;
+}
+#photo-project h2 {
+  font-size: 45px;
+  margin: 100px 0px;
+
+}
+.photo-project {
+  display: flex;
+}
+.photo-wrapper {
+  display: flex;
+  gap: 50px;
+  padding-top: 50px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1300px;
+}
+.photo-wrapper img {
+  display: flex;
+  max-width: 625px;
+  width: 50%;
+}
+
+.design-project {
+  display: flex;
+  flex-direction: column;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.design-project h2 {
+  font-size: 45px;
+  margin: 100px 0px;
+}
+
+#design-gallery-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 26px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+#design-gallery-wrapper a {
+  width: 32%;
+  height: 411px;
+  box-sizing: border-box;
+}
+#design-gallery-wrapper img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  object-fit: cover;
+}
+#design-gallery-wrapper img:hover {
+  scale: 1.05;
+}
+
+#illustration-gallery-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 26px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+#illustration-gallery-wrapper a {
+  width: 32%;
+  height: 411px;
+  box-sizing: border-box;
+}
+#illustration-gallery-wrapper img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  object-fit: cover;
+}
+#illustration-gallery-wrapper img:hover {
+  scale: 1.05;
+}
+
+.illustration {
+  display: flex;
+  flex-direction: column;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.illustration h2 {
+  font-size: 45px;
+  margin: 100px 0px;
+}
+
+#footer {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-logo {
+  width: 300px;
+  margin: 80px 0px;
+}
+.footer-container {
+  display: flex;
+  max-width: 1300px;
+  margin: 0 auto;
+  justify-content: space-around;
+  height: 100px;
+  width: 100%;
+  gap
+}
+.footer-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.footer-item p,
+a:hover {
+  scale: 1.05;
+}
+.footer-item img {
+  width: 20px;
+}
